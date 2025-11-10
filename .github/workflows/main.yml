@@ -12,6 +12,6 @@ jobs:
         uses: wpengine/github-action-wpe-site-deploy@v3
         with:
           SRC_PATH: "./"
-          REMOTE_PATH: "wp-content/themes/"
+          REMOTE_PATH: "wp-content/themes/machesterlaw/"
           WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
           WPE_ENV: machesterlaw
